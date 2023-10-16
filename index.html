@@ -25,32 +25,32 @@
         }
     </style>
  
-    <title>ç™»è®°è¡¨</title>
+    <title>µÇ¼Ç±í</title>
  
 </head>
  
 <body>
-    <div class="title" >ä¼šå‘˜ä¿¡æ¯å½•å…¥ç³»ç»Ÿ</div>
+    <div class="title" >»áÔ±ĞÅÏ¢Â¼ÈëÏµÍ³</div>
     <div id="">
-        çœŸå®å§“åï¼š<input type="text" maxlength="15" size="20" id="name"><br>
-        çœŸå®å¹´é¾„ï¼š<input type="text" maxlength="2" size="20" id="nian"><br>
-        å‡ºç”Ÿæ—¥æœŸï¼š<input size="20" id="date" type="date"/><br>
-        ç”µå­é‚®ç®±ï¼š<input type="text" maxlength="30" size="20" id="dian" ><br>
-        è”ç³»æ–¹å¼ï¼š<input type="text" maxlength="11" size="20" id="lian" ><br>
-        <input type="button" onclick="add()" value="æ·»åŠ " id="ft">
-        <input type="button" onclick="myFunction()" value="é‡ç½®" id="1reset">
+        ÕæÊµĞÕÃû£º<input type="text" maxlength="15" size="20" id="name"><br>
+        ÕæÊµÄêÁä£º<input type="text" maxlength="2" size="20" id="nian"><br>
+        ³öÉúÈÕÆÚ£º<input size="20" id="date" type="date"/><br>
+        µç×ÓÓÊÏä£º<input type="text" maxlength="30" size="20" id="dian" ><br>
+        ÁªÏµ·½Ê½£º<input type="text" maxlength="11" size="20" id="lian" ><br>
+        <input type="button" onclick="add()" value="Ìí¼Ó" id="ft">
+        <input type="button" onclick="myFunction()" value="ÖØÖÃ" id="1reset">
      </div> 
  
     <!-- <form action=""> -->
         <table width="600" border="1" cellspacing="0" id="tab1" align="center">
-            <caption>ä¼šå‘˜ä¿¡æ¯ç»Ÿè®¡è¡¨</caption>
+            <caption>»áÔ±ĞÅÏ¢Í³¼Æ±í</caption>
             <tr>
-                <td>çœŸå®å§“å</td>
-                <td>çœŸå®å¹´é¾„</td>
-                <td>å‡ºç”Ÿæ—¥æœŸ</td>
-                <td>ç”µå­é‚®ç®±</td>
-                <td>è”ç³»æ–¹å¼</td>
-                <td>æ“ä½œ</td>
+                <td>ÕæÊµĞÕÃû</td>
+                <td>ÕæÊµÄêÁä</td>
+                <td>³öÉúÈÕÆÚ</td>
+                <td>µç×ÓÓÊÏä</td>
+                <td>ÁªÏµ·½Ê½</td>
+                <td>²Ù×÷</td>
  
             </tr>
  
@@ -82,7 +82,7 @@
 
             pa.setAttribute("onclick", "del(this)");
             pa.setAttribute("href", "javascript:void(0)");//"javascript:void(0)"
-            pa.innerHTML = "åˆ é™¤"
+            pa.innerHTML = "É¾³ı"
             td1.innerHTML = name1;
             td2.innerHTML = nian1;
             td3.innerHTML = date1;
@@ -105,7 +105,7 @@
         }
         function del(obj) {
  
-            var judge = confirm("ç¡®è®¤åˆ é™¤å—?")
+            var judge = confirm("È·ÈÏÉ¾³ıÂğ?")
             if (judge = true) {
                 tdNode = obj.parentNode;
                 trNOde = tdNode.parentNode;
